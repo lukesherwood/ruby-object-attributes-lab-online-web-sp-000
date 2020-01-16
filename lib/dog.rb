@@ -16,3 +16,20 @@ class Dog
   end
   
 end
+
+class Person
+  def name=(new_name)
+    @name = new_name
+  end
+  
+  def name
+    @name
+  end
+ 
+  def job=(new_job)
+    @breed = new_job
+  end
+  
+  def job
+    @job
+  end
